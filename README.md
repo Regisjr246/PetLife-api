@@ -17,7 +17,7 @@ Certifique-se de ter os seguintes requisitos atendidos antes de começar a traba
 
 1. Clone este repositório para o seu ambiente de desenvolvimento local utilizando o comando:
 ```
- git clone https://github.com/Regisjr246/exercicios-api.git
+ git clone https://github.com/Regisjr246/PetLife-api.git
 ```
 2. Acesse o diretório do projeto:
 ```
@@ -35,6 +35,9 @@ copy env.example .env
 ```
 code.
 ```
+# Insomnia 
+
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=PetLife-api&uri=https%3A%2F%2Fgithub.com%2FRegisjr246%2FPetLife-api.git)
 
 ## Licença
 
