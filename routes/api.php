@@ -24,3 +24,7 @@ Route::post('cadastro/fornecedor', [FornecedorController::class, 'fornecedor']);
 
 /* Cadastro de pets*/
 Route::post('cadastro/pets', [PetController::class, 'pet']);
+
+
+
+Route::get('/find/{id}',  [Clientecontroller::class, 'pesquisarPorCliente']);

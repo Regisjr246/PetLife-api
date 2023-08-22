@@ -31,5 +31,16 @@ class Clientecontroller extends Controller
             "message" => "Usuário Cadastrado com sucesso",
             "data" => $usuario
         ], 200);
+ 
     }
+
+ public function pesquisarPorCliente($id){
+    return Cliente::find($id);
+ }
+
+
+
+
 }
+
+
