@@ -27,16 +27,16 @@ class Clienterequest extends FormRequest
 
             'nome' => 'required|max:80|min:5',
             'cpf' => 'required|max:11|min:11|unique:clientes,cpf',
-            'email' => 'required|email|unique:cliente,email',
+            'email' => 'required|email|unique:clientes,email',
             'password' => 'required',
             'telefone' => 'required|max:15|min:10',
-            'bairro' => 'required|max:80|min:20',
-            'rua' => 'required|max:30|min:10',
+            'bairro' => 'required|max:80|min:5',
+            'rua' => 'required|max:30|min:5',
             'numero' => 'required|max:6|min:1',
         ];
     }
 
-    public function falidValidation(Validator $validator)
+    public function failedValidation(Validator $validator)
     {
         throw new HttpResponseException(response()->json([
             'sucess' => false,
