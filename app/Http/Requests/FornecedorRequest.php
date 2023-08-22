@@ -54,7 +54,7 @@ class FornecedorRequest extends FormRequest
             'cnpj.required' => 'O campo CNPJ é obrigatorio',
             'cnpj.max' => 'CNPJ deve ter no maximo 11 caracteres',
             'cnpj.min' => 'CNPJ deve ter no maximo 11 caracteres',
-            'cnpj.unique' => 'CNPS já cadastrado no sistema',
+            'cnpj.unique' => 'CNPJ já cadastrado no sistema',
             'telefone, required' => 'O numero de telefone é obrigatorio',
             'telefone.max' => 'O numero de telefone deve conter no maximo 15',
             'telefone.min' => 'O numero de telefone é deve conter no minimo 10',
