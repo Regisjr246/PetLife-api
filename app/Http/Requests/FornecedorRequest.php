@@ -62,9 +62,9 @@ class FornecedorRequest extends FormRequest
             'email.email' => 'formato de email invalido',
             'email.unique' => 'O Email já cadastrado',
             'password.required' => 'Senha obrigatoria',
-            'produto.required' => 'O campo ocupacao é obrigatorio',
-            'produto.max' => 'O campo ocupacao deve ter no maximo 80 caracteres',
-            'produto.min' => 'O campo ocupacao deve ter no minimo 5 caracteres',
+            'produto.required' => 'O campo produto é obrigatorio',
+            'produto.max' => 'O campo produto deve ter no maximo 80 caracteres',
+            'produto.min' => 'O campo produto deve ter no minimo 5 caracteres',
             
 
 
