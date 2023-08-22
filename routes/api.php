@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Clientecontroller;
 use App\Http\Controllers\FornecedorController;
+use App\Http\Controllers\PetController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -20,3 +21,6 @@ Route::post('cadastro/cliente', [Clientecontroller::class, 'cliente']);
 
 /*Cadastro de fornecedor */
 Route::post('cadastro/fornecedor', [FornecedorController::class, 'fornecedor']);
+
+/* Cadastro de pets*/
+Route::post('cadastro/pets', [PetController::class, 'pet']);
