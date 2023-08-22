@@ -18,7 +18,7 @@ class FornecedorController extends Controller
             'cnpj' => $request->cnpj,
             'email' => $request->email,
             'telefone' => $request->telefone,
-            'ocupacao' => $request->ocupacao,
+            'produto' => $request->produto,
             
             'password' => Hash::make($request->password)
 
